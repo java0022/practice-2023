@@ -189,19 +189,21 @@ h1 {
     background-color: aqua;
 }
 
+
 .flex-child {
     width: 400px;
     height: 500px;
     margin: 20px;
+    background-color: rgb(123, 59, 70);
 }
 
 .flex {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .blurb {
     font-size: larger;
     color: white;
-    line-height: normal;
 }
